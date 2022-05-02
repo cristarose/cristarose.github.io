@@ -1,5 +1,12 @@
 .navbar {
   background-color:  #EFE5C6 !important;
+  width: [object Object]px;
+	height: [object Object]px;
+	background: #F8F8F8;
+	border: solid #BDBDBD 1px;
+	box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2)  ;
+	-webkit-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2)  ;
+	-moz-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2)  ;
 }
 
 .navbar-toggler {
@@ -12,6 +19,11 @@
 
 .img-fluid {
   padding-top: 100px;
+
+}
+
+.logo {
+  margin-left: 25px;
 }
 
 .col-sm {
@@ -25,8 +37,9 @@ body {
 
 .btn-secondary {
   margin-top: 5px;
+  border-radius: 5px;
 }
 
 .fabrands {
-  margin-bottom: 25px;
+
 }
