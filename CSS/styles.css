@@ -9,37 +9,219 @@
 	-moz-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2)  ;
 }
 
-.navbar-toggler {
-
-}
-
-.navbar-nav {
-
+.nav-link {
+  color: #4B5324 !important;
 }
 
 .img-fluid {
-  padding-top: 100px;
-
+  padding-top: 50px;
 }
 
 .logo {
-  margin-left: 25px;
+  margin-left: 40px;
 }
 
-.col-sm {
-  padding: 20px;
+.col-sm-4 {
+  margin-top:10px;
+  justify-content: center;
+}
+
+.row {
+  margin-top: 30px;
+}
+
+#HomeImg {
+  background-image: url('../images/TSG-001.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+  margin-top: 100px;
+}
+
+/* Class for HomeImg */
+.custom_class4 {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 630px;
+  background: rgba(164, 193, 111, 0.65);
+  padding: 15px;
+  text-align: center;
+}
+
+/* Class for Get Involved Row */
+.custom_class6 {
+
+}
+
+/* Class for Donate & Volunteer */
+.custom_class5 {
+  margin-top: 60px;
+  padding-top: 20px;
+  background: rgba(239, 229, 198, 0.85);
+}
+
+#GetInvolvedImg {
+  background-image: url('../images/TSG-2.png');
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+  margin-top: 130px;
 }
 
 body {
   background-color: #EFE5C6;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
+.missionP {
+  padding-top: 30px;
+  padding-right: 30px;
+}
+
+.whiteBG {
+  background-color: #F5F9E2;
+}
+
+h1 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 5rem;
+  color: white;
+  text-shadow: 2px 2px 3px #000000;
+}
+
+h2 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2rem;
+  color: #4B5324;
+}
+
+.headertwo {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2rem;
+  color: #4B5324;
+  text-shadow: 4px 4px 4px #888D6C;
+}
+
+h3 {
+  font-family: 'Bebas Neue', cursive;
+  color: #EFE5C6;
+}
+
+.fa-brands {
+  color: #4B5324;
+}
+
+.involvedP {
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+.involvedLine {
+  position: relative;
+  left: -11px;
+  border: 2px solid #ffffff;
+  background-color: #ffffff;
+  opacity: 1;
+  width: 130px;
+}
+
+hr {
+  position: relative;
+  left: 0px;
+  border: 3px solid #ffffff;
+  background-color: #ffffff;
+  opacity: 1;
+  width: 550px;
+  transform: rotate(180deg);
+}
+
+/* Youtube Class */
+.custom_class {
+  background-color: white;
+  padding: 20px;
+}
+
+/* HR-Line class */
+.custom_class1 {
+  postion: absolute;
+  left: 0px;
+}
+
+
+/* Our Farms class, makes line move up right under */
+.custom_class2 {
+  margin-bottom: -50px;
+}
+
+.card {
+  margin-top: 5px;
+  border-color: #585F58;
+}
 
 .btn-secondary {
   margin-top: 5px;
-  border-radius: 5px;
+  border-radius: 0px;
+  background-color: #EFE5C6 !important;
+  color: black;
 }
 
-.fabrands {
+.btn-success {
+  background-color: #A5C16F !important;
+  border-radius: 0px !important;
+  color: black !important;
+  border-color: black !important;
+  filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.custom_class7 {
+  background-color: #A5C16F !important;
+    border-radius: 0px !important;
+  color: black !important;
+  border-color: black !important;
+  margin-bottom: 60px;
+  margin-left: 250px;
+  filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+footer {
+  font-family: 'Nunito Sans', sans-serif;
+  margin-top: 60px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #A5C16F;
+}
+
+/* CLass for Icons */
+.custom_class3 {
+  padding-top: 5px;
+}
+
+.copyright {
+  padding-top: 30px;
+  font-size: 8pt;
+}
+
+.link-dark {
+  padding-left: 3px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
 
 }
