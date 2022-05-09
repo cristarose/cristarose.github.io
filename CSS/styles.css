@@ -51,11 +51,6 @@
   text-align: center;
 }
 
-/* Class for Get Involved Row */
-.custom_class6 {
-
-}
-
 /* Class for Donate & Volunteer */
 .custom_class5 {
   margin-top: 60px;
@@ -265,7 +260,6 @@ a:active {
   background-color: #A5C16F !important;
   color: white !important;
 }
-
 
 .modalHR {
   opacity: 1;
