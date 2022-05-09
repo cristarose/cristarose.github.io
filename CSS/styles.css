@@ -78,7 +78,8 @@ body {
 
 .missionP {
   padding-top: 30px;
-  padding-right: 45px;
+  padding-right: 225px;
+  font-size: 1rem;
 }
 
 .whiteBG {
@@ -152,7 +153,6 @@ hr {
   left: 0px;
 }
 
-
 /* Our Farms class, makes line move up right under */
 .custom_class2 {
   margin-bottom: -50px;
@@ -180,7 +180,7 @@ hr {
 
 .custom_class7 {
   background-color: #A5C16F !important;
-    border-radius: 0px !important;
+  border-radius: 0px !important;
   color: black !important;
   border-color: black !important;
   margin-bottom: 60px;
@@ -188,15 +188,24 @@ hr {
   filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
+/* Class for DONATE/ VOLUNTEER buttons */
+.custom_class8 {
+  background-color: #A5C16F !important;
+  border-radius: 0px !important;
+  color: black !important;
+  border-color: black !important;
+  filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
 footer {
   font-family: 'Nunito Sans', sans-serif;
-  margin-top: 60px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  margin-top: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   background-color: #A5C16F;
 }
 
-/* CLass for Icons */
+/* Class for Icons */
 .custom_class3 {
   padding-top: 5px;
 }
@@ -223,5 +232,28 @@ a:hover {
 }
 
 a:active {
+  background-color: #A5C16F !important;
+}
 
+.stretched-link {
+  color: black !important;
+}
+
+.headerAbout {
+  text-align: center;
+  padding-top: 125px;
+}
+
+.modal-header {
+  background-color: #A5C16F !important;
+  color: white !important;
+}
+
+
+.modalHR {
+  opacity: 1;
+  border-color: #BEBEBE;
+  background-color: #BEBEBE;
+  border-width: 0.5px;
+  width: 450px;
 }
