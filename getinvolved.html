@@ -24,40 +24,42 @@
 
 <header>
 
-<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-  <div class="container">
-    <a class="btn btn-success" href="getinvolved.html" role="button">GET INVOLVED</a>
-    <a href="index.html"><img src="./images/tsglogo.png" alt="TSG-Grafitti Logo" class="logo" width="auto" height="65px"></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="btn btn-success" href="getinvolved.html" role="button">GET INVOLVED</a>
+          <a href="index.html"><img src="./images/tsglogo.png" alt="TSG-Grafitti Logo" class="logo" width="auto" height="65px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
-        <!-- me means margin end, ms means margin start which means left -->
+               <!-- me means margin end, ms means margin start which means left -->
 
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="about.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">CSA</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Gallery</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Shop</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="features.html">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="csa.html">CSA</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shop.html">Shop</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
 </header>
+
+
 
 <main>
 
@@ -67,17 +69,29 @@
 <div id="GetInvolvedImg">
   <div class="container-fluid">
     <div class="row custom_class6">
+
+<!-- DONATE SECTION -->
+
       <div class="col-sm-4 offset-1 custom_class5">
         <h2>DONATE</h2>
         <hr class="involvedLine"></hr>
-        <p class="involvedP">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <a class="btn custom_class7" href="#" role="button">DONATE</a>
+        <p class="involvedP">Support Three Sisters Gardens with a tax-deductible donation. This will help us to continue helping others!
+        <br>
+        <br>
+        Please also considering joining our Community Supported Agriculture (CSA) program as an additional way to support Three Sisters Gardens, as well as supplying yourself with healthy and nutritious fruits and vegetables. Join the <a href="csa.html">CSA Program</a> here!</p>
+        <p class="involvedP2">Please click the button below to leave a donation.</p>
+        <a class="btn custom_class7" href="#" role="button">DONATE</a>
       </div>
+
+
+<!-- VOLUNTEER SECTION -->
 
       <div class="col-sm-4 offset-2 custom_class5">
         <h2>VOLUNTEER</h2>
         <hr class="involvedLine"></hr>
-        <p class="involvedP">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p class="involvedP">Financial contributions are always helpful, but there are many other ways for you to support the program.</p>
+        <p class="involvedP">Individuals with skills in clerical support, grant writing, research, social media, outreach leading workshops, farm operations and any applicable talents are always needed and greatly encouraged and appreciated.</p>
+        <p class="involvedP2">Please click the button below to submit your application for review.</p>
 
 
 
@@ -101,8 +115,12 @@
                 <label for="inputEmail4" class="form-label">Name</label>
                 <input type="email" class="form-control" id="inputEmail4">
               </div>
-              <div class="col-md-12">
+              <div class="col-md-6">
                 <label for="inputPassword4" class="form-label">Email</label>
+                <input type="password" class="form-control" id="inputPassword4">
+              </div>
+              <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Phone Number</label>
                 <input type="password" class="form-control" id="inputPassword4">
               </div>
               <div class="col-md-5">
@@ -149,7 +167,13 @@
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" id="gridCheck">
                   <label class="form-check-label" for="gridCheck">
-                    Receive volunteer updates
+                    Yes, I want to receive volunteer updates.
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Yes, I want to work the booths for community events.
                   </label>
                 </div>
               </div>
@@ -157,7 +181,7 @@
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn custom_class8" data-bs-dismiss="modal">Submit</button>
+                <button type="button" class="btn custom_class9" data-bs-dismiss="modal">Submit</button>
               </div>
             </div>
           </div>
@@ -167,6 +191,8 @@
 </main>
 
 <footer>
+
+
   <div class="container">
     <div class="row">
       <div class="col-sm-6">
@@ -178,15 +204,15 @@
         <div class="row">
           <div class="col-sm-4 justify-content-center">
             <i class="fa-solid fa-map-pin"></i>
-            <a href="#" class="link-dark">317 4th Street</a>
+            <a href="https://www.google.com/maps/place/317+4th+St,+West+Sacramento,+CA+95605/@38.5881055,-121.511563,20z/data=!4m5!3m4!1s0x809ad6c88acbf067:0x5795abcf72006f8b!8m2!3d38.5881013!4d-121.511284" class="link-dark">317 4th Street</a>
           </div>
           <div class="col-sm-4 justify-content-center">
             <i class="fa-solid fa-map-pin"></i>
-            <a href="#" class="link-dark">700 Cummins Way</a>
+            <a href="https://www.google.com/maps/place/700+Cummins+Way,+West+Sacramento,+CA+95605/@38.5937831,-121.5202087,19z/data=!4m5!3m4!1s0x809ad6be81239317:0x9b77f73847da687f!8m2!3d38.5937789!4d-121.5196562" class="link-dark">700 Cummins Way</a>
           </div>
           <div class="col-sm-4 justify-content-center">
             <i class="fa-solid fa-map-pin"></i>
-            <a href="#" class="link-dark">317 5th Street</a>
+            <a href="https://www.google.com/maps/place/317+5th+St,+West+Sacramento,+CA+95605/@38.58865,-121.512978,19z/data=!4m9!1m2!2m1!1s317+5th+Street!3m5!1s0x809ad6c87212101b:0x4b63c6659683f0cd!8m2!3d38.58833!4d-121.512447!15sCg4zMTcgNXRoIFN0cmVldJIBEGdlb2NvZGVkX2FkZHJlc3M" class="link-dark">317 5th Street</a>
           </div>
         </div>
       </div>
@@ -196,8 +222,11 @@
             <h3>Have a Question?</h3>
 
             <input class="form-control" type="text" placeholder="First Name" aria-label="default input">
+            <br>
             <input class="form-control" type="text" placeholder="Email Address" aria-label="default input">
-            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Questions?"rows="6"></textarea>
+            <br>
+            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Questions?"rows="5"></textarea>
+            <br>
             <button type="button" class="btn btn-secondary">Submit</button>
           </div>
         </div>
@@ -226,12 +255,11 @@
         <!-- blank space -->
       </div>
       <div class="col-sm-7">
-        <p class="copyright">2022 Copyright. | Privacy Policy</p>
+        <p class="copyright">2022 Copyright. | <a href="#">Privacy Policy</a></p>
       </div>
     </div>
 
 </footer>
-
 
 
 
